@@ -44,6 +44,24 @@
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 
 
+/** 随机颜色 */
+#define KRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]
+
+//颜色
+#define TITLE_COLOR [UIColor blackColor]//标题颜色
+#define TEXT_COLOR [UIColor grayColor]//正文颜色
+#define TIPTEXT_COLOR DYRGBColor(230, 220, 220, 1)//提示语文本颜色
+#define MAIN_GROUNDCOLOR DYRGBColor(230, 220, 220, 1)//主题景色
+#define BACKGROUNDCOLOR DYRGBColor(230, 220, 220, 1)//背景颜色
+
+//字体大小
+#define TITLEFONT [UIFont systemFontOfSize:18]
+#define TEXTFONT [UIFont systemFontOfSize:16]
+#define TIPTEXTFONT [UIFont systemFontOfSize:12]
+
+/** 比例缩放 */
+#define DYValue(x) x * SCREEN_WIDTH / 414.0f
+
 
 
 
