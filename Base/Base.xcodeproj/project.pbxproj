@@ -12,6 +12,7 @@
 		1608E64F1F8C9A27006697A6 /* DYHudManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608E64E1F8C9A27006697A6 /* DYHudManager.m */; };
 		1608E6531F8C9E02006697A6 /* DYiPhoneInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608E6521F8C9E02006697A6 /* DYiPhoneInfo.m */; };
 		160BE3571F9B1ADA0033767C /* UIButton+DYCategary.m in Sources */ = {isa = PBXBuildFile; fileRef = 160BE3561F9B1ADA0033767C /* UIButton+DYCategary.m */; };
+		160BE35B1F9B2A660033767C /* DYCreateViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 160BE35A1F9B2A660033767C /* DYCreateViews.m */; };
 		1643611E1F8B6B1200B28F24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1643611D1F8B6B1200B28F24 /* AppDelegate.m */; };
 		164361261F8B6B1200B28F24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164361251F8B6B1200B28F24 /* Assets.xcassets */; };
 		164361291F8B6B1200B28F24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164361271F8B6B1200B28F24 /* LaunchScreen.storyboard */; };
@@ -100,6 +101,8 @@
 		160BE3541F9B1AAB0033767C /* UIView+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		160BE3551F9B1ADA0033767C /* UIButton+DYCategary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+DYCategary.h"; sourceTree = "<group>"; };
 		160BE3561F9B1ADA0033767C /* UIButton+DYCategary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DYCategary.m"; sourceTree = "<group>"; };
+		160BE3591F9B2A660033767C /* DYCreateViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYCreateViews.h; sourceTree = "<group>"; };
+		160BE35A1F9B2A660033767C /* DYCreateViews.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYCreateViews.m; sourceTree = "<group>"; };
 		164361191F8B6B1200B28F24 /* Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1643611C1F8B6B1200B28F24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1643611D1F8B6B1200B28F24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -239,6 +242,15 @@
 			path = ViewsCategory;
 			sourceTree = "<group>";
 		};
+		160BE3581F9B2A530033767C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				160BE3591F9B2A660033767C /* DYCreateViews.h */,
+				160BE35A1F9B2A660033767C /* DYCreateViews.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		164361101F8B6B1200B28F24 = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +384,7 @@
 		164361831F8B6B9900B28F24 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				160BE3581F9B2A530033767C /* Views */,
 				1608E6431F8C9565006697A6 /* Common */,
 				168645781F8C6EAF00844382 /* RequestTools */,
 			);
@@ -726,6 +739,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				160BE3571F9B1ADA0033767C /* UIButton+DYCategary.m in Sources */,
+				160BE35B1F9B2A660033767C /* DYCreateViews.m in Sources */,
 				1643612C1F8B6B1300B28F24 /* main.m in Sources */,
 				1608E64F1F8C9A27006697A6 /* DYHudManager.m in Sources */,
 				1608E6531F8C9E02006697A6 /* DYiPhoneInfo.m in Sources */,
